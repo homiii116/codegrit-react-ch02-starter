@@ -4,7 +4,7 @@ import MainPic from './../../images/instacard-main-image.jpg';
 const CardImage = () => {
   return (
     <div className="card-image">
-      <img src={MainPic} />
+      <img src={MainPic} alt="MainPic"/>
     </div>
   );
 }

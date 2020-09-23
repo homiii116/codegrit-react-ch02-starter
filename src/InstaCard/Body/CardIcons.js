@@ -14,15 +14,15 @@ const CardIcons = () => {
     <div className="card-main-icons">
       <ul className="flex-container card-main-icons-left">
         <li className="icon-heart">
-          <img src={HeartPic} style={imageStyles} />
+          <img src={HeartPic} style={imageStyles} alt="Heartpic"/>
         </li>
         <li className="icon-comment">
-          <img src={BubblePic} style={imageStyles} />
+          <img src={BubblePic} style={imageStyles} alt="BubblePic"/>
         </li>
       </ul>
       <ul className="flex-container card-main-icons-right">
         <li className="icon-bookmark icons-right">
-          <img src={BookmarkPic} style={imageStyles} />
+          <img src={BookmarkPic} style={imageStyles} alt="BookmarkPic"/>
         </li>
       </ul>
     </div>

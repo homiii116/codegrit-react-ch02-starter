@@ -1,20 +1,12 @@
 import React from 'react'
 import CardImage from './CardImage';
-import CardIcons from './CardIcons';
-import LikeCounts from './LikeCounts';
-import Comments from './Comments';
-import PostDate from './PostDate';
-import CommentBox from './CommentBox';
+import CardMain from './CardMain';
 
 const CardBody = () => {
   return (
     <section className="card-body">
       <CardImage />
-      <CardIcons />
-      <LikeCounts />
-      <Comments />
-      <PostDate />
-      <CommentBox />
+      <CardMain />
     </section>
   )
 }
